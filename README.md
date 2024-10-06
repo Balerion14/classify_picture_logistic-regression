@@ -1,2 +1,5 @@
 # classify_picture_logistic-regression
 classyfy two types of images using logistic regresion
+
+## Description
+Many aspects could be improved to optimize the model's performance, such as using k-fold cross-validation, better data preprocessing, selecting only relevant pixels, or increasing the number of training epochs. A deep learning model would be more suitable, as this is a non-linear problem, and the current model is biased because it cannot capture the complexity of the problem. More advanced models, like convolutional neural networks (CNN), generative adversarial networks (GAN), or diffusion models, would be more effective. However, this notebook aims to provide a detailed understanding of how to manually create a neuron (perceptron) and manage the forward pass and gradient descent using matrices, matrix products, and arithmetic operations. This approach helps to understand the importance of these concepts and tools, making it easier to grasp more complex neural networks later on, as we know exactly how they work in detail. Thus, we can easily adapt or create more complex models, using libraries like PyTorch with its tensors, for instance.
